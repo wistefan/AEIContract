@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const Timestamper = artifacts.require("../contracts/Timestamper.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(Timestamper);
 };
